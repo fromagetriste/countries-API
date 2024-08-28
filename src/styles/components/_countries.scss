@@ -4,7 +4,7 @@
   .radio-container {
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 20px;
     background: $color-3;
     border-radius: 20px;
     padding: 10px;
@@ -13,6 +13,9 @@
 
     input {
       transform: translateY(1px);
+      @media (max-width: 600px) {
+        width: 90%;
+      }
     }
 
     label {
@@ -54,6 +57,7 @@
 
   ul {
     display: flex;
+    gap: 5px;
     flex-wrap: wrap;
     justify-content: center;
   }
