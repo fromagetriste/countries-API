@@ -20,7 +20,7 @@ const Countries = () => {
         <input
           type="range"
           min="1"
-          max="250"
+          max="36"
           defaultValue={rangeValue}
           onChange={(e) => setRangeValue(e.target.value)}
         />
